@@ -16,8 +16,8 @@ This Django REST API allows you to create and list events, register attendees, a
 ### 1. Clone the repository or unzip the folder
 
 ```
-git clone 
-cd event-management
+git clone https://github.com/IndhumathiGJ/Omnify_EventManagement.git
+cd Event-management
 ```
 
 ### 2. Create and activate a virtual environment
@@ -76,6 +76,8 @@ python manage.py runserver
     "time": "10:00:00"
 }
 ```
+##List all events
+**GET**   `/api/events/` 
 
 ### Register an Attendee
 
@@ -83,8 +85,8 @@ python manage.py runserver
 
 ```json
 {
-    "name": "John Doe",
-    "email": "john@example.com"
+    "name": "Indhu",
+    "email": "indhu@gmail.com"
 }
 ```
 
@@ -96,6 +98,6 @@ python manage.py runserver
 
 ## Video Walkthrough
 
-A Loom video walkthrough link will be shared separately.
+Link : "https://drive.google.com/file/d/1LSAE1WvXO3JCJYg4C_6irNUQeN01XyXL/view?usp=sharing"
 
 ---
